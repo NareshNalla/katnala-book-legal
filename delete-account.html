@@ -8,7 +8,7 @@
     body { font-family: system-ui, sans-serif; max-width: 720px; margin: 32px auto; padding: 0 16px; line-height: 1.5; color: #222; }
     h1 { color: #7a1f2b; }
     h2 { margin-top: 1.6em; }
-    ol { padding-left: 1.25rem; }
+    ol, ul { padding-left: 1.25rem; }
     code { background: #f4f4f4; padding: 0.1em 0.35em; border-radius: 4px; }
     a { color: #7a1f2b; }
   </style>
@@ -17,9 +17,22 @@
   <h1>Katnala Book / కట్నాల బుక్ — Delete account &amp; data</h1>
   <p><strong>Developer:</strong> Naresh Nalla<br />
   <strong>App:</strong> Katnala Book (Google Play)</p>
-  <p>Use this page to request deletion of your Katnala Book account and associated data.</p>
+  <p>This page explains how to delete some or all of your Katnala Book data, with or without deleting your account.</p>
 
-  <h2>How to request deletion</h2>
+  <h2>Delete some data without deleting your account</h2>
+  <p>You can remove data while staying signed in:</p>
+  <ol>
+    <li>Open <strong>Katnala Book</strong> and sign in.</li>
+    <li>Delete individual <strong>gifts</strong>, <strong>guests</strong>, <strong>events</strong>, or <strong>reminders</strong> using the in-app delete/edit controls on those screens.</li>
+    <li>Optional photos attached to a gift are removed when you delete that gift.</li>
+  </ol>
+  <p><strong>Deleted immediately in the app:</strong> the gift, guest, event, reminder, or photo you removed (and the synced Firebase copy of that item when sync is on).</p>
+  <p><strong>Kept:</strong> your account (username/mobile, PIN, security question), profile fields you did not change, and any other gifts/guests/events you did not delete.</p>
+  <p>If you cannot delete something in the app, open a request:<br />
+  <a href="https://github.com/NareshNalla/katnala-book-legal/issues/new?title=Data%20deletion%20request">Request data deletion (GitHub issue)</a><br />
+  Include your username/mobile and what to delete. We aim to complete these within <strong>30 days</strong>.</p>
+
+  <h2>Delete your whole account and all associated data</h2>
   <ol>
     <li>Open a deletion request here:<br />
       <a href="https://github.com/NareshNalla/katnala-book-legal/issues/new?title=Account%20deletion%20request">Request account deletion (GitHub issue)</a></li>
@@ -34,7 +47,7 @@
   </ol>
   <p>We aim to complete cloud-account deletion within <strong>30 days</strong> of a valid request. You will get a reply on the GitHub issue when it is done.</p>
 
-  <h2>What we delete</h2>
+  <h2>What we delete for a full account request</h2>
   <ul>
     <li>Account credentials (username/mobile, PIN hash, security question/answer)</li>
     <li>Profile fields (name, address)</li>
