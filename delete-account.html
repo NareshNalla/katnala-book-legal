@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Katnala Book — Account &amp; data deletion</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 32px auto; padding: 0 16px; line-height: 1.5; color: #222; }
+    h1 { color: #7a1f2b; }
+    h2 { margin-top: 1.6em; }
+    ol { padding-left: 1.25rem; }
+    code { background: #f4f4f4; padding: 0.1em 0.35em; border-radius: 4px; }
+    a { color: #7a1f2b; }
+  </style>
+</head>
+<body>
+  <h1>Katnala Book / కట్నాల బుక్ — Delete account &amp; data</h1>
+  <p><strong>Developer:</strong> Naresh Nalla<br />
+  <strong>App:</strong> Katnala Book (Google Play)</p>
+  <p>Use this page to request deletion of your Katnala Book account and associated data.</p>
+
+  <h2>How to request deletion</h2>
+  <ol>
+    <li>Open a deletion request here:<br />
+      <a href="https://github.com/NareshNalla/katnala-book-legal/issues/new?title=Account%20deletion%20request">Request account deletion (GitHub issue)</a></li>
+    <li>In the issue body, include:
+      <ul>
+        <li>Your Katnala Book username or mobile number</li>
+        <li>The name used in the app (if any)</li>
+        <li>The words <code>Please delete my Katnala Book account</code></li>
+      </ul>
+    </li>
+    <li>On your phone, also clear app data or uninstall Katnala Book (Android Settings → Apps → Katnala Book → Storage → Clear data, or Uninstall). That removes local data on the device immediately.</li>
+  </ol>
+  <p>We aim to complete cloud-account deletion within <strong>30 days</strong> of a valid request. You will get a reply on the GitHub issue when it is done.</p>
+
+  <h2>What we delete</h2>
+  <ul>
+    <li>Account credentials (username/mobile, PIN hash, security question/answer)</li>
+    <li>Profile fields (name, address)</li>
+    <li>Guests, gifts, events, reminders, and related notes/photos stored for your account</li>
+    <li>Synced copies in Firebase Realtime Database for that account (when sync was used)</li>
+  </ul>
+
+  <h2>What we may keep (and for how long)</h2>
+  <ul>
+    <li><strong>Device-local data</strong> remains on a phone until you clear app data or uninstall — we cannot erase another person’s device remotely.</li>
+    <li><strong>Deletion-request records</strong> (the GitHub issue and our reply) may be kept up to 12 months for proof that we handled your request.</li>
+    <li><strong>Backups / logs</strong> that are not tied to a live account, if any, are removed on the normal backup rotation (typically within 90 days).</li>
+    <li>Data Google Play, AdMob, or Gemini process under their own terms is governed by those services; we delete what we control in the Katnala Book account and our Firebase sync for that account.</li>
+  </ul>
+
+  <h2>Privacy policy</h2>
+  <p><a href="https://nareshnalla.github.io/katnala-book-legal/privacy.html">Katnala Book Privacy Policy</a></p>
+</body>
+</html>
